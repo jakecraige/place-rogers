@@ -4,7 +4,8 @@
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [compojure "1.1.6"]
                  [hiccup "1.0.5"]
-                 [ring-server "0.3.1"]]
+                 [ring-server "0.3.1"]
+                 [image-resizer  "0.1.6"]]
   :plugins [[lein-ring "0.8.12"]]
   :ring {:handler place-rogers.handler/app
          :init place-rogers.handler/init
